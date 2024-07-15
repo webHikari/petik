@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "Geist-Regular";
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: url(/fonts/Geist-Regular.otf) format("otf");
+    }
+}
+
+@layer base {
+    @font-face {
+        font-family: "Geist-Medium";
+        font-style: normal;
+        font-weight: 600;
+        font-display: swap;
+        src: url(/fonts/Geist-Medium.otf) format("otf");
+    }
+}
+
+@layer base {
+    @font-face {
+        font-family: "Geist-Bold";
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: url(/fonts/Geist-Bold.otf) format("otf");
+    }
+}
+
+body {
+    background: #050505;
+    color: #fafafa;
+}
